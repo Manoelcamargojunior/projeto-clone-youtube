@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500; 1.600&display=swap');
+
+
+* {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #fff;
+}
+
+
+form .btn-enviar  input:hover {
+    box-shadow: #eee078;
+    transform: scale(1.05);
+}  
+
+.header {
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    height: 56px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(63, 61, 61);
+    position: fixed;
+      
+
+}
+
+.menu{
+    position: fixed;
+    left: 25px;
+    margin: 12px;
+    
+}
+
+
+.logo {
+    position: fixed;
+    left: 60px;
+    margin: 12px;
+   
+}
+.notificação {
+    position: fixed;
+    right: 90px;
+    vertical-align: middle;
+    padding: 6px;
+
+    
+}
+
+.add-videos {
+    position: fixed;
+    right: 115px;
+    padding: 6px;
+    gap: px;
+    vertical-align: middle;
+    opacity: 0px;
+    }
+
+
+
+.avatar {
+    position: fixed;
+    right: 45px;
+    padding: 6px;
+    
+    
+}
+
+.caixa-login {
+    
+    height: 30px;
+
+}
+
+.primary {
+    flex-direction: column;
+    padding: 120px;
+    align-items: flex-start;
+    position: relative;
+    display: flex;
+    gap: 10px;
+  
+    
+   
+}
+
+.Watching {
+    border-radius: 10px;
+}
+
+.texto {
+color: #000000;
+opacity: 0px;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+line-height: 23.44px;
+text-align: left;
+
+
+
+}
+
+.action {
+    width: 902px;
+    height: 42px;
+    gap: 42px;
+    opacity: 0px;
+}
+   
+.visualizaçoes {
+    width: 391px;
+    height: 16px;
+}
+
+.comentario {
+    width: 510px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.secondary {
+flex-direction: column;
+display: flex;
+
+gap: 8px;
+align-items:flex-start;
+position:absolute;
+right: 250px;
+
+}
+
+
+    
+
+
+
+
